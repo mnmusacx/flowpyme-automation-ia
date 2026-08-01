@@ -34,7 +34,7 @@ El sistema se compone de **dos flujos independientes** coordinados por el campo 
 - **Flujo A — Generación** (trigger: formulario / webhook): recibe el lead → valida → agente IA + RAG → guarda borrador → aviso HITL.
 - **Flujo B — Distribución** (trigger: Schedule): detecta las propuestas aprobadas → envía la propuesta al cliente → marca como *Enviado*.
 
-Diagrama completo y explicación en **[`docs/EntregaFinal_Arquitectura.pdf`](docs/EntregaFinal_Arquitectura.pdf)**.
+Diagrama completo y explicación en **[`EntregaFinal_Arquitectura.pdf`](EntregaFinal_Arquitectura.pdf)**.
 
 ---
 
@@ -51,9 +51,10 @@ Diagrama completo y explicación en **[`docs/EntregaFinal_Arquitectura.pdf`](doc
 
 ## 📁 Contenido del repositorio
 
-- [`docs/EntregaFinal_Arquitectura.pdf`](docs/EntregaFinal_Arquitectura.pdf) — Diagrama de arquitectura y documentación.
-- [`workflow/Entrega-Final.json`](workflow/Entrega-Final.json) — Lógica del flujo (exportado de n8n, sin credenciales).
-- [`evidencias/`](evidencias/) — Capturas del sistema funcionando (test de estrés, estados, mails).
+- [`EntregaFinal_Arquitectura.pdf`](EntregaFinal_Arquitectura.pdf) — Diagrama de arquitectura y documentación.
+- [`Entrega Final.json`](Entrega%20Final.json) — Lógica del flujo (exportado de n8n, sin credenciales).
+- [`Capturas flujo 1.pdf`](Capturas%20flujo%201.pdf) — Evidencias del flujo completo (camino feliz).
+- [`Flujo con falla.pdf`](Flujo%20con%20falla.pdf) — Evidencia del camino infeliz (manejo de errores).
 
 ## 🔗 Enlaces
 
