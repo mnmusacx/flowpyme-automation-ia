@@ -58,8 +58,7 @@ Diagrama completo y explicación en **[`docs/EntregaFinal_Arquitectura.pdf`](doc
 ## 🔗 Enlaces
 
 - **Base de datos (Airtable, modo lectura):** https://airtable.com/appV8S3y4kk105pBD/shrf5dtdAH3eIc97P
-- **Video demo (3 min):** _[pegar link acá]_
-
+- **Video demo (3 min): https://drive.google.com/file/d/1UsT_K-jSvmFySVwegfY_YTIxojfu-1pk/view?usp=sharing
 ---
 
 ## 🔐 Nota de seguridad
