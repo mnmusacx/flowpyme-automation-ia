@@ -595,12 +595,16 @@
         -16
       ],
       "id": "690c8d5f-f071-4071-99df-360c91ca07a6",
-      "name": "AI Agent"
+      "name": "AI Agent",
+      "retryOnFail": true,
+      "waitBetweenTries": 2000
     },
     {
       "parameters": {
         "model": "openai/gpt-4o-mini",
-        "options": {}
+        "options": {
+          "maxTokens": 800
+        }
       },
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
       "typeVersion": 1,
@@ -1456,12 +1460,18 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "bde9fa46-ced0-448b-ad0c-793eb4fae9ce",
+  "versionId": "85d7d262-8942-4bd4-9879-e382dadd5a1a",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "0387acc8556b40607f3b6faf90331dd1bd16e352f54b60625b214e4956684997"
   },
-  "nodeGroups": [],
+  "nodeGroups": [
+    {
+      "id": "0392cd00-2b24-4de3-9fb0-f3be47c9902d",
+      "nodeIds": [],
+      "name": "Group 1"
+    }
+  ],
   "id": "sPkbWU1ekdlXxvyt",
   "tags": []
 }
